@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding-top: 12px;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 32px auto;
+}
+
+section {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: rgb(212, 212, 212);
+  border-radius: 8px;
+  border: solid 4px black;
+}
+
+#target {
+  width: 300px;
+  line-height: 68px;
+  margin: 150px auto 0;
+  font-size: 60px;
+  letter-spacing: .1em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px rgb(82, 82, 82);
+  cursor: pointer;
+  user-select: none;
+}
+
+.checked {
+  pointer-events: none;
+  margin: 150px auto 0;
+  /* background: white; */
+  font-size: 48px;
+}
+
+.click-start-text {
+  font-size: 48px;
+  user-select: none;
+}
+
+#target:hover {
+  opacity: 0.7;
+}
+
+#result {
+  font-size: 28px;
+}
+
+#miss {
+  font-size: 28px;
+}
+
+li {
+  list-style: none;
+}
